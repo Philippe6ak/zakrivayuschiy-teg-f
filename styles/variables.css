@@ -23,8 +23,20 @@
         ), linear-gradient(
             to bottom,
             #e7e7e7 0%,
-            #e7e7e7 1%,
+            #e7e7e7 0.01%,
             #1a1a1a 100%
         );
+        
+
+    /* color variables */ 
+
+    --white: #fff;
+    --black: #000;
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
+
+    --elatic-width: clamp(320px, 260.5634px + 30.5164vw, 700px);
+    --title-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+    --subtitle-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
 }
       
