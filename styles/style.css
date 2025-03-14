@@ -207,10 +207,9 @@
   filter: hue-rotate(0.5turn);
 }
 
-.opacity {
-  filter: opacity(40%);
+.opacity-sepia {
+  filter: opacity(40%) sepia(0.6);
 }
-
 
 /* dialog part */
 
@@ -243,14 +242,12 @@ dialog:not([open]) {
   text-transform: uppercase;
 }
 
-.close-button__container{
+.close-button__container {
   grid-row: 2 / auto;
   grid-column: 1 / -1;
 }
 
 .close-button {
-  width: 100%;
-  height: auto;
   background-color: var(--white);
   border: 2px solid var(--black);
   padding: 0;
