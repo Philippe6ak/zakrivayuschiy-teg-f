@@ -150,6 +150,7 @@
   background-color: var(--white);
   border: 2px solid var(--black);
   padding: 0;
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
@@ -275,7 +276,6 @@ dialog:not([open]) {
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--black);
-  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
