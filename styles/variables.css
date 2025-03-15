@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     /* font variables */
-    --main-font: "Inter-Variable";
-    --accent-font: "Press Start 2P";
+    --main-font: "Inter-Variable", sans-serif;
+    --accent-font: "Press Start 2P", fantasy;
     --inter-accent-normal: 400;
     --inter-accent-bold: 700;
 
@@ -25,10 +25,9 @@
             #e7e7e7 0%,
             #e7e7e7 0.01%,
             #1a1a1a 100%
-    );
+        );
 
-    /* color variables */ 
-
+    /* color variables */
     --white: #fff;
     --black: #000;
     --contour-color: #000;
@@ -37,5 +36,6 @@
     --elatic-width: clamp(320px, 260.5634px + 30.5164vw, 700px);
     --title-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
     --subtitle-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
+    --header-padding: clamp(7.5rem, 7.324rem + 0.75vw, 8rem);
 }
       

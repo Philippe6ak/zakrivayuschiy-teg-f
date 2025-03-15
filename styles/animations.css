@@ -28,10 +28,3 @@
       fill: var(--animation-fill-color);
     }
   }
-
-
-@keyframes addshadow {
-    to {
-      box-shadow: 2px 2px var(--black);
-    }
-  }
